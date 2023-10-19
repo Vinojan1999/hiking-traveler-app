@@ -5,9 +5,9 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="mt-4 flexBetween max-container padding-container relative z-30 py-5">
         <Link href="/">
-            <Image src="/hiking-logo.svg" alt="logo" width={120} height={30} />
+            <Image src="/hiking-logo.svg" alt="logo" width={140} height={30} />
         </Link>
 
         <ul className="hidden h-full gap-12 lg:flex">
@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link 
               href={link.href} 
               key={link.key} 
-              className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+              className="text-md font-medium text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:text-black"
             >
               {link.label}
             </Link>
