@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Hiking Traveler Application UI with Next 13
+
+![HiKing Traveler App](https://github.com/Vinojan1999/hiking-traveler-app/assets/48822560/18b78683-850a-42de-bb8d-6cd3cb58b42d)
 
 ## Getting Started
 
